@@ -1,0 +1,12 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+     background-color: rgb(76, 2, 63); 
+}*/
+.flash {
+    background-color: rgb(225, 122, 212);
+}
+
+.box:hover {
+    cursor: pointer;
+}
