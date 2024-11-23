@@ -63,7 +63,7 @@ function Box() {
         }}
     >
         <Typography variant="h1">{bpm} BPM</Typography>
-        <Typography variant="subtitle1">Press spacebar or click to tap</Typography>
+        <Typography variant="subtitle1">Tap For Tempo</Typography>
         <Typography variant="body2">Your last 8 taps are averaged</Typography>
 
     </MuiBox>
