@@ -1,0 +1,17 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "frame-ancestors 'self' https://stemmer.io https://www.stemmer.io"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "ALLOW-FROM https://stemmer.io https://www.stemmer.io"
+                }
+            ]
+        }
+    ]
+}
