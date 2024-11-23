@@ -6,6 +6,10 @@
                 {
                     "key": "Content-Security-Policy",
                     "value": "frame-ancestors 'self' https://stemmer.io https://www.stemmer.io https://webflow.io https://www.webflow.io"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "ALLOWALL"
                 }
             ]
         }
